@@ -1,0 +1,112 @@
+[
+  {
+    "product_id": "PROD-001",
+    "sku": "ELEC-1001",
+    "name": "AI Accelerator GPU Module",
+    "category": "Electronics",
+    "unit_cost": "$1250.00",
+    "currency": "USD",
+    "weight_kg": 1.2,
+    "supplier_id": "SUP-010",
+    "raw_payload": "{\"product_id\": \"PROD-001\", \"sku\": \"ELEC-1001\", \"cost\": 1250.0}"
+  },
+  {
+    "product_id": "PROD-002",
+    "sku": "ELEC-1002",
+    "name": "5G Telemetry Transceiver",
+    "category": "Electronics",
+    "unit_cost": "$350.00",
+    "currency": "USD",
+    "weight_kg": 0.4,
+    "supplier_id": "SUP-005",
+    "raw_payload": "{\"product_id\": \"PROD-002\", \"sku\": \"ELEC-1002\", \"cost\": 350.0}"
+  },
+  {
+    "product_id": "PROD-003",
+    "sku": "ELEC-1003",
+    "name": "Microcontroller Board v4",
+    "category": "Electronics",
+    "unit_cost": "$45.00",
+    "currency": "USD",
+    "weight_kg": 0.1,
+    "supplier_id": "SUP-007",
+    "raw_payload": "{\"product_id\": \"PROD-003\", \"sku\": \"ELEC-1003\", \"cost\": 45.0}"
+  },
+  {
+    "product_id": "PROD-004",
+    "sku": "AUTO-2001",
+    "name": "EV Battery Pack 75kWh",
+    "category": "Automotive",
+    "unit_cost": "$4800.00",
+    "currency": "USD",
+    "weight_kg": 320.0,
+    "supplier_id": "SUP-009",
+    "raw_payload": "{\"product_id\": \"PROD-004\", \"sku\": \"AUTO-2001\", \"cost\": 4800.0}"
+  },
+  {
+    "product_id": "PROD-005",
+    "sku": "AUTO-2002",
+    "name": "Electric Drive Motor 150kW",
+    "category": "Automotive",
+    "unit_cost": "$2100.00",
+    "currency": "USD",
+    "weight_kg": 85.0,
+    "supplier_id": "SUP-013",
+    "raw_payload": "{\"product_id\": \"PROD-005\", \"sku\": \"AUTO-2002\", \"cost\": 2100.0}"
+  },
+  {
+    "product_id": "PROD-006",
+    "sku": "PHAR-3001",
+    "name": "mRNA Vaccine Vials (Box 100)",
+    "category": "Pharmaceuticals",
+    "unit_cost": "$1800.00",
+    "currency": "USD",
+    "weight_kg": 5.0,
+    "supplier_id": "SUP-015",
+    "raw_payload": "{\"product_id\": \"PROD-006\", \"sku\": \"PHAR-3001\", \"cost\": 1800.0}"
+  },
+  {
+    "product_id": "PROD-007",
+    "sku": "PHAR-3002",
+    "name": "Biologics Injectable Reagents",
+    "category": "Pharmaceuticals",
+    "unit_cost": "$3200.00",
+    "currency": "USD",
+    "weight_kg": 2.5,
+    "supplier_id": "SUP-015",
+    "raw_payload": "{\"product_id\": \"PROD-007\", \"sku\": \"PHAR-3002\", \"cost\": 3200.0}"
+  },
+  {
+    "product_id": "PROD-008",
+    "sku": "IND-4001",
+    "name": "Hydraulic Servo Valve",
+    "category": "Industrial",
+    "unit_cost": "$890.00",
+    "currency": "USD",
+    "weight_kg": 12.0,
+    "supplier_id": "SUP-003",
+    "raw_payload": "{\"product_id\": \"PROD-008\", \"sku\": \"IND-4001\", \"cost\": 890.0}"
+  },
+  {
+    "product_id": "PROD-009",
+    "sku": "IND-4002",
+    "name": "High-Torque Robot Arm Joint",
+    "category": "Industrial",
+    "unit_cost": "$3400.00",
+    "currency": "USD",
+    "weight_kg": 45.0,
+    "supplier_id": "SUP-006",
+    "raw_payload": "{\"product_id\": \"PROD-009\", \"sku\": \"IND-4002\", \"cost\": 3400.0}"
+  },
+  {
+    "product_id": "PROD-010",
+    "sku": "RET-5001",
+    "name": "Smart Logistics Tracker Device",
+    "category": "IoT Hardware",
+    "unit_cost": "$120.00",
+    "currency": "USD",
+    "weight_kg": 0.3,
+    "supplier_id": "SUP-001",
+    "raw_payload": "{\"product_id\": \"PROD-010\", \"sku\": \"RET-5001\", \"cost\": 120.0}"
+  }
+]

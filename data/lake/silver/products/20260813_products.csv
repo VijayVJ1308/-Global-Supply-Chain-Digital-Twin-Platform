@@ -1,0 +1,11 @@
+product_id,sku,name,category,unit_cost_usd,weight_kg,supplier_id
+PROD-001,ELEC-1001,AI Accelerator GPU Module,Electronics,1250.0,1.2,SUP-010
+PROD-002,ELEC-1002,5G Telemetry Transceiver,Electronics,350.0,0.4,SUP-005
+PROD-003,ELEC-1003,Microcontroller Board v4,Electronics,45.0,0.1,SUP-007
+PROD-004,AUTO-2001,EV Battery Pack 75kWh,Automotive,4800.0,320.0,SUP-009
+PROD-005,AUTO-2002,Electric Drive Motor 150kW,Automotive,2100.0,85.0,SUP-013
+PROD-006,PHAR-3001,mRNA Vaccine Vials (Box 100),Pharmaceuticals,1800.0,5.0,SUP-015
+PROD-007,PHAR-3002,Biologics Injectable Reagents,Pharmaceuticals,3200.0,2.5,SUP-015
+PROD-008,IND-4001,Hydraulic Servo Valve,Industrial,890.0,12.0,SUP-003
+PROD-009,IND-4002,High-Torque Robot Arm Joint,Industrial,3400.0,45.0,SUP-006
+PROD-010,RET-5001,Smart Logistics Tracker Device,IoT Hardware,120.0,0.3,SUP-001

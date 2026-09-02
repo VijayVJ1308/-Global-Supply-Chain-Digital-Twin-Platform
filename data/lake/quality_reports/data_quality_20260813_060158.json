@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-08-13T06:01:58.101242",
+  "summary": {
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "score_pct": 100.0
+  },
+  "layer_results": {},
+  "test_details": [
+    {
+      "layer": "bronze",
+      "test_name": "bronze_suppliers_not_empty",
+      "description": "Bronze suppliers raw table must contain rows",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.102434"
+    },
+    {
+      "layer": "bronze",
+      "test_name": "bronze_orders_not_empty",
+      "description": "Bronze orders raw table must contain rows",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.102979"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_suppliers_no_null_id",
+      "description": "Silver suppliers supplier_id must not be null",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.103395"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_products_unique_sku",
+      "description": "Silver product SKUs must be unique",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.103772"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_orders_positive_quantity",
+      "description": "Silver order quantity must be greater than zero",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.104182"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_orders_referential_customer",
+      "description": "All Silver orders must link to a valid customer",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.104677"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_shipments_referential_order",
+      "description": "All Silver shipments must link to a valid order",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.105673"
+    },
+    {
+      "layer": "silver",
+      "test_name": "silver_inventory_non_negative",
+      "description": "Silver inventory quantity on hand must be non-negative",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.106159"
+    },
+    {
+      "layer": "gold",
+      "test_name": "gold_fact_orders_valid_keys",
+      "description": "Gold fact_orders dimension keys must not be null",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.106590"
+    },
+    {
+      "layer": "gold",
+      "test_name": "gold_dim_date_populated",
+      "description": "Gold dim_date dimension must contain at least 1 year of dates",
+      "status": "PASSED",
+      "executed_at": "2026-08-13T06:01:58.106960"
+    }
+  ]
+}

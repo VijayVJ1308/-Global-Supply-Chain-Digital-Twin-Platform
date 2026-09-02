@@ -1,0 +1,11 @@
+product_id,sku,name,category,unit_cost,currency,weight_kg,supplier_id,raw_payload
+PROD-001,ELEC-1001,AI Accelerator GPU Module,Electronics,$1250.00,USD,1.2,SUP-010,"{""product_id"": ""PROD-001"", ""sku"": ""ELEC-1001"", ""cost"": 1250.0}"
+PROD-002,ELEC-1002,5G Telemetry Transceiver,Electronics,$350.00,USD,0.4,SUP-015,"{""product_id"": ""PROD-002"", ""sku"": ""ELEC-1002"", ""cost"": 350.0}"
+PROD-003,ELEC-1003,Microcontroller Board v4,Electronics,$45.00,USD,0.1,SUP-013,"{""product_id"": ""PROD-003"", ""sku"": ""ELEC-1003"", ""cost"": 45.0}"
+PROD-004,AUTO-2001,EV Battery Pack 75kWh,Automotive,$4800.00,USD,320.0,SUP-012,"{""product_id"": ""PROD-004"", ""sku"": ""AUTO-2001"", ""cost"": 4800.0}"
+PROD-005,AUTO-2002,Electric Drive Motor 150kW,Automotive,$2100.00,USD,85.0,SUP-008,"{""product_id"": ""PROD-005"", ""sku"": ""AUTO-2002"", ""cost"": 2100.0}"
+PROD-006,PHAR-3001,mRNA Vaccine Vials (Box 100),Pharmaceuticals,$1800.00,USD,5.0,SUP-013,"{""product_id"": ""PROD-006"", ""sku"": ""PHAR-3001"", ""cost"": 1800.0}"
+PROD-007,PHAR-3002,Biologics Injectable Reagents,Pharmaceuticals,$3200.00,USD,2.5,SUP-015,"{""product_id"": ""PROD-007"", ""sku"": ""PHAR-3002"", ""cost"": 3200.0}"
+PROD-008,IND-4001,Hydraulic Servo Valve,Industrial,$890.00,USD,12.0,SUP-010,"{""product_id"": ""PROD-008"", ""sku"": ""IND-4001"", ""cost"": 890.0}"
+PROD-009,IND-4002,High-Torque Robot Arm Joint,Industrial,$3400.00,USD,45.0,SUP-015,"{""product_id"": ""PROD-009"", ""sku"": ""IND-4002"", ""cost"": 3400.0}"
+PROD-010,RET-5001,Smart Logistics Tracker Device,IoT Hardware,$120.00,USD,0.3,SUP-004,"{""product_id"": ""PROD-010"", ""sku"": ""RET-5001"", ""cost"": 120.0}"

@@ -1,0 +1,16 @@
+supplier_id,name,contact_email,country,region,tier,rating,is_active
+SUP-001,Nvidia Precision Tech,contact@nvidiaprecisiontech.com,Taiwan,Asia,Tier 1,4.9,True
+SUP-002,Bosch Global Systems,contact@boschglobalsystems.com,Germany,Europe,Tier 1,4.8,True
+SUP-003,Samsung Components,contact@samsungcomponents.com,South Korea,Asia,Tier 1,4.85,True
+SUP-004,TSMC Microelectronics,contact@tsmcmicroelectronics.com,Taiwan,Asia,Tier 1,4.95,True
+SUP-005,Foxconn Logistics,contact@foxconnlogistics.com,China,Asia,Tier 1,4.6,True
+SUP-006,Siemens Automation,contact@siemensautomation.com,Germany,Europe,Tier 1,4.75,True
+SUP-007,Pfizer Cold Pharma,contact@pfizercoldpharma.com,USA,North America,Tier 1,4.9,True
+SUP-008,Moderna BioSupply,contact@modernabiosupply.com,USA,North America,Tier 1,4.88,True
+SUP-009,BASF Chemical Works,contact@basfchemicalworks.com,Germany,Europe,Tier 2,4.5,True
+SUP-010,SK Hynix Memory,contact@skhynixmemory.com,South Korea,Asia,Tier 1,4.7,True
+SUP-011,Flex Semiconductor,contact@flexsemiconductor.com,Singapore,Asia,Tier 2,4.4,True
+SUP-012,Murata Manufacturing,contact@muratamanufacturing.com,Japan,Asia,Tier 2,4.65,True
+SUP-013,Valero Energy Energy,contact@valeroenergyenergy.com,USA,North America,Tier 2,4.3,True
+SUP-014,Vale Mining SA,contact@valeminingsa.com,Brazil,South America,Tier 2,4.2,True
+SUP-015,Tata Industrial Freight,contact@tataindustrialfreight.com,India,Asia,Tier 2,4.45,True

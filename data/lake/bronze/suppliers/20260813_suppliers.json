@@ -1,0 +1,152 @@
+[
+  {
+    "supplier_id": "SUP-001",
+    "name": "Nvidia Precision Tech",
+    "contact_email": "contact@nvidiaprecisiontech.com",
+    "country": "Taiwan",
+    "region": "Asia",
+    "tier": "Tier 1",
+    "rating": 4.9,
+    "raw_payload": "{\"supplier_id\": \"SUP-001\", \"name\": \"Nvidia Precision Tech\", \"rating\": 4.9}"
+  },
+  {
+    "supplier_id": "SUP-002",
+    "name": "Bosch Global Systems",
+    "contact_email": "contact@boschglobalsystems.com",
+    "country": "Germany",
+    "region": "Europe",
+    "tier": "Tier 1",
+    "rating": 4.8,
+    "raw_payload": "{\"supplier_id\": \"SUP-002\", \"name\": \"Bosch Global Systems\", \"rating\": 4.8}"
+  },
+  {
+    "supplier_id": "SUP-003",
+    "name": "Samsung Components",
+    "contact_email": "contact@samsungcomponents.com",
+    "country": "South Korea",
+    "region": "Asia",
+    "tier": "Tier 1",
+    "rating": 4.85,
+    "raw_payload": "{\"supplier_id\": \"SUP-003\", \"name\": \"Samsung Components\", \"rating\": 4.85}"
+  },
+  {
+    "supplier_id": "SUP-004",
+    "name": "TSMC Microelectronics",
+    "contact_email": "contact@tsmcmicroelectronics.com",
+    "country": "Taiwan",
+    "region": "Asia",
+    "tier": "Tier 1",
+    "rating": 4.95,
+    "raw_payload": "{\"supplier_id\": \"SUP-004\", \"name\": \"TSMC Microelectronics\", \"rating\": 4.95}"
+  },
+  {
+    "supplier_id": "SUP-005",
+    "name": "Foxconn Logistics",
+    "contact_email": "contact@foxconnlogistics.com",
+    "country": "China",
+    "region": "Asia",
+    "tier": "Tier 1",
+    "rating": 4.6,
+    "raw_payload": "{\"supplier_id\": \"SUP-005\", \"name\": \"Foxconn Logistics\", \"rating\": 4.6}"
+  },
+  {
+    "supplier_id": "SUP-006",
+    "name": "Siemens Automation",
+    "contact_email": "contact@siemensautomation.com",
+    "country": "Germany",
+    "region": "Europe",
+    "tier": "Tier 1",
+    "rating": 4.75,
+    "raw_payload": "{\"supplier_id\": \"SUP-006\", \"name\": \"Siemens Automation\", \"rating\": 4.75}"
+  },
+  {
+    "supplier_id": "SUP-007",
+    "name": "Pfizer Cold Pharma",
+    "contact_email": "contact@pfizercoldpharma.com",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Tier 1",
+    "rating": 4.9,
+    "raw_payload": "{\"supplier_id\": \"SUP-007\", \"name\": \"Pfizer Cold Pharma\", \"rating\": 4.9}"
+  },
+  {
+    "supplier_id": "SUP-008",
+    "name": "Moderna BioSupply",
+    "contact_email": "contact@modernabiosupply.com",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Tier 1",
+    "rating": 4.88,
+    "raw_payload": "{\"supplier_id\": \"SUP-008\", \"name\": \"Moderna BioSupply\", \"rating\": 4.88}"
+  },
+  {
+    "supplier_id": "SUP-009",
+    "name": "BASF Chemical Works",
+    "contact_email": "contact@basfchemicalworks.com",
+    "country": "Germany",
+    "region": "Europe",
+    "tier": "Tier 2",
+    "rating": 4.5,
+    "raw_payload": "{\"supplier_id\": \"SUP-009\", \"name\": \"BASF Chemical Works\", \"rating\": 4.5}"
+  },
+  {
+    "supplier_id": "SUP-010",
+    "name": "SK Hynix Memory",
+    "contact_email": "contact@skhynixmemory.com",
+    "country": "South Korea",
+    "region": "Asia",
+    "tier": "Tier 1",
+    "rating": 4.7,
+    "raw_payload": "{\"supplier_id\": \"SUP-010\", \"name\": \"SK Hynix Memory\", \"rating\": 4.7}"
+  },
+  {
+    "supplier_id": "SUP-011",
+    "name": "Flex Semiconductor",
+    "contact_email": "contact@flexsemiconductor.com",
+    "country": "Singapore",
+    "region": "Asia",
+    "tier": "Tier 2",
+    "rating": 4.4,
+    "raw_payload": "{\"supplier_id\": \"SUP-011\", \"name\": \"Flex Semiconductor\", \"rating\": 4.4}"
+  },
+  {
+    "supplier_id": "SUP-012",
+    "name": "Murata Manufacturing",
+    "contact_email": "contact@muratamanufacturing.com",
+    "country": "Japan",
+    "region": "Asia",
+    "tier": "Tier 2",
+    "rating": 4.65,
+    "raw_payload": "{\"supplier_id\": \"SUP-012\", \"name\": \"Murata Manufacturing\", \"rating\": 4.65}"
+  },
+  {
+    "supplier_id": "SUP-013",
+    "name": "Valero Energy Energy",
+    "contact_email": "contact@valeroenergyenergy.com",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Tier 2",
+    "rating": 4.3,
+    "raw_payload": "{\"supplier_id\": \"SUP-013\", \"name\": \"Valero Energy Energy\", \"rating\": 4.3}"
+  },
+  {
+    "supplier_id": "SUP-014",
+    "name": "Vale Mining SA",
+    "contact_email": "contact@valeminingsa.com",
+    "country": "Brazil",
+    "region": "South America",
+    "tier": "Tier 2",
+    "rating": 4.2,
+    "raw_payload": "{\"supplier_id\": \"SUP-014\", \"name\": \"Vale Mining SA\", \"rating\": 4.2}"
+  },
+  {
+    "supplier_id": "SUP-015",
+    "name": "Tata Industrial Freight",
+    "contact_email": "contact@tataindustrialfreight.com",
+    "country": "India",
+    "region": "Asia",
+    "tier": "Tier 2",
+    "rating": 4.45,
+    "raw_payload": "{\"supplier_id\": \"SUP-015\", \"name\": \"Tata Industrial Freight\", \"rating\": 4.45}"
+  }
+]

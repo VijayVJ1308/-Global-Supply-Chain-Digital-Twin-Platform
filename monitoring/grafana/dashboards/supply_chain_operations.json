@@ -1,0 +1,42 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "title": "Pipeline Health & Data Quality Score (%)",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 0, "y": 0 },
+      "targets": [{ "expr": "data_quality_score_pct", "refId": "A" }]
+    },
+    {
+      "title": "Active Shipments Monitored",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 6, "y": 0 },
+      "targets": [{ "expr": "active_shipments_total", "refId": "A" }]
+    },
+    {
+      "title": "Cold Chain Temp Anomaly Breaches (>8°C)",
+      "type": "stat",
+      "gridPos": { "h": 6, "w": 6, "x": 12, "y": 0 },
+      "targets": [{ "expr": "iot_temp_breach_total", "refId": "A" }]
+    },
+    {
+      "title": "ETL Ingestion Latency (ms)",
+      "type": "gauge",
+      "gridPos": { "h": 6, "w": 6, "x": 18, "y": 0 },
+      "targets": [{ "expr": "etl_latency_ms", "refId": "A" }]
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["supply-chain", "digital-twin", "medallion"],
+  "time": { "from": "now-1h", "to": "now" },
+  "title": "Global Supply Chain Digital Twin Operations",
+  "uid": "supply_chain_digital_twin"
+}

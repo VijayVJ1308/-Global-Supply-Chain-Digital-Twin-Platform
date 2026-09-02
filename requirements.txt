@@ -1,0 +1,17 @@
+# Global Supply Chain Digital Twin Platform Dependencies
+psycopg2-binary>=2.9.9
+sqlalchemy>=2.0.25
+pandas>=2.2.0
+numpy>=1.26.3
+minio>=7.2.4
+kafka-python>=2.0.2
+pyspark>=3.5.0
+dbt-core>=1.7.0
+dbt-postgres>=1.7.0
+fastapi>=0.109.0
+uvicorn>=0.27.0
+jinja2>=3.1.3
+prometheus-client>=0.19.0
+pytest>=8.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0

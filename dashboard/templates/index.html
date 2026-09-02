@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Supply Chain Digital Twin Platform</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Header Navbar -->
+    <header class="app-header">
+        <div class="logo-area">
+            <div class="pulse-icon"><i class="fa-solid fa-earth-americas"></i></div>
+            <div>
+                <h1>GLOBAL SUPPLY CHAIN <span>DIGITAL TWIN</span></h1>
+                <p class="subtitle">Enterprise Data Engineering & Control Tower Engine</p>
+            </div>
+        </div>
+        <div class="header-actions">
+            <div class="system-status">
+                <span class="status-dot green"></span> Lakehouse Active
+                <span class="status-dot blue"></span> Streaming Engine
+            </div>
+            <button class="btn btn-primary" id="btn-run-etl"><i class="fa-solid fa-arrows-rotate"></i> Trigger Batch ETL</button>
+            <a href="/api/quality/download" target="_blank" class="btn btn-outline"><i class="fa-solid fa-file-shield"></i> Data Audit Report</a>
+        </div>
+    </header>
+
+    <!-- Top KPI Banner -->
+    <section class="kpi-banner">
+        <div class="kpi-card">
+            <div class="kpi-icon blue"><i class="fa-solid fa-cart-flatbed"></i></div>
+            <div class="kpi-data">
+                <div class="kpi-label">Total Orders</div>
+                <div class="kpi-val" id="kpi-orders">--</div>
+                <div class="kpi-sub" id="kpi-revenue">--</div>
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon green"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="kpi-data">
+                <div class="kpi-label">Active Shipments</div>
+                <div class="kpi-val" id="kpi-shipments">--</div>
+                <div class="kpi-sub">In Transit Worldwide</div>
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon orange"><i class="fa-solid fa-triangle-exclamation"></i></div>
+            <div class="kpi-data">
+                <div class="kpi-label">Shipment Delays</div>
+                <div class="kpi-val" id="kpi-delays">--</div>
+                <div class="kpi-sub">Customs / Transport Lag</div>
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon red"><i class="fa-solid fa-temperature-arrow-up"></i></div>
+            <div class="kpi-data">
+                <div class="kpi-label">Cold Chain Breaches</div>
+                <div class="kpi-val" id="kpi-breaches">--</div>
+                <div class="kpi-sub">IoT Alert Temp > 8°C</div>
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon purple"><i class="fa-solid fa-warehouse"></i></div>
+            <div class="kpi-data">
+                <div class="kpi-label">Low Stock SKUs</div>
+                <div class="kpi-val" id="kpi-low-stock">--</div>
+                <div class="kpi-sub">Reorder Threshold Reached</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Navigation Tabs -->
+    <nav class="tab-nav">
+        <button class="tab-btn active" data-tab="tab-map"><i class="fa-solid fa-map-location-dot"></i> Digital Twin Global Map</button>
+        <button class="tab-btn" data-tab="tab-inventory"><i class="fa-solid fa-boxes-stacked"></i> Warehouse Stock Control</button>
+        <button class="tab-btn" data-tab="tab-quality"><i class="fa-solid fa-shield-halved"></i> Data Quality Framework</button>
+    </nav>
+
+    <!-- Content Sections -->
+    <main class="main-content">
+        <!-- Tab 1: Global Digital Twin Map -->
+        <section id="tab-map" class="tab-panel active">
+            <div class="map-layout">
+                <div id="map" class="digital-twin-map"></div>
+                <div class="map-sidebar">
+                    <h3><i class="fa-solid fa-satellite-dish"></i> Live IoT Telemetry Feed</h3>
+                    <div class="telemetry-feed" id="telemetry-feed">
+                        <div class="loading-state">Receiving streaming sensor telemetry...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 2: Warehouse Stock -->
+        <section id="tab-inventory" class="tab-panel">
+            <div class="panel-card">
+                <div class="panel-header">
+                    <h3><i class="fa-solid fa-warehouse"></i> Inventory Stock Heatmap & Low Stock Alerts</h3>
+                    <span class="badge badge-info">Silver Layer Verified</span>
+                </div>
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Warehouse Node</th>
+                                <th>Product Name</th>
+                                <th>Category</th>
+                                <th>Quantity on Hand</th>
+                                <th>Reorder Level</th>
+                                <th>Stock Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="inventory-tbody">
+                            <tr><td colspan="6" class="text-center">Loading stock telemetry...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tab 3: Data Quality -->
+        <section id="tab-quality" class="tab-panel">
+            <div class="panel-card">
+                <div class="panel-header">
+                    <h3><i class="fa-solid fa-shield-cat"></i> Medallion Lakehouse Data Quality & Integrity Suite</h3>
+                    <button class="btn btn-sm btn-primary" id="btn-retest-quality"><i class="fa-solid fa-vial"></i> Run Validation Suite</button>
+                </div>
+                <div class="quality-summary-grid">
+                    <div class="q-card">
+                        <div class="q-label">Data Quality SLA Score</div>
+                        <div class="q-score" id="quality-score">--%</div>
+                    </div>
+                    <div class="q-card">
+                        <div class="q-label">Total Test Assertions</div>
+                        <div class="q-val" id="quality-total">--</div>
+                    </div>
+                    <div class="q-card">
+                        <div class="q-label">Assertions Passed</div>
+                        <div class="q-val green-text" id="quality-passed">--</div>
+                    </div>
+                    <div class="q-card">
+                        <div class="q-label">Assertions Failed</div>
+                        <div class="q-val red-text" id="quality-failed">--</div>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Medallion Layer</th>
+                                <th>Test Assertion</th>
+                                <th>Description</th>
+                                <th>Status</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </thead>
+                        <tbody id="quality-tbody">
+                            <tr><td colspan="5" class="text-center">Running data quality assertions...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Custom App JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

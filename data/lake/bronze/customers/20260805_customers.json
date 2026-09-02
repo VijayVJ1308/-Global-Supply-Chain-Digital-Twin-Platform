@@ -1,0 +1,92 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "company_name": "Apple Inc.",
+    "industry": "Technology",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-001\", \"company\": \"Apple Inc.\"}"
+  },
+  {
+    "customer_id": "CUST-002",
+    "company_name": "Tesla Motors",
+    "industry": "Automotive",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-002\", \"company\": \"Tesla Motors\"}"
+  },
+  {
+    "customer_id": "CUST-003",
+    "company_name": "Siemens Healthineers",
+    "industry": "Healthcare",
+    "country": "Germany",
+    "region": "Europe",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-003\", \"company\": \"Siemens Healthineers\"}"
+  },
+  {
+    "customer_id": "CUST-004",
+    "company_name": "Toyota Motor Corp",
+    "industry": "Automotive",
+    "country": "Japan",
+    "region": "Asia",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-004\", \"company\": \"Toyota Motor Corp\"}"
+  },
+  {
+    "customer_id": "CUST-005",
+    "company_name": "Novartis Pharma",
+    "industry": "Pharmaceuticals",
+    "country": "Switzerland",
+    "region": "Europe",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-005\", \"company\": \"Novartis Pharma\"}"
+  },
+  {
+    "customer_id": "CUST-006",
+    "company_name": "General Electric",
+    "industry": "Industrial",
+    "country": "USA",
+    "region": "North America",
+    "tier": "Mid-Market",
+    "raw_payload": "{\"customer_id\": \"CUST-006\", \"company\": \"General Electric\"}"
+  },
+  {
+    "customer_id": "CUST-007",
+    "company_name": "Sony Electronics",
+    "industry": "Technology",
+    "country": "Japan",
+    "region": "Asia",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-007\", \"company\": \"Sony Electronics\"}"
+  },
+  {
+    "customer_id": "CUST-008",
+    "company_name": "AstraZeneca",
+    "industry": "Healthcare",
+    "country": "UK",
+    "region": "Europe",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-008\", \"company\": \"AstraZeneca\"}"
+  },
+  {
+    "customer_id": "CUST-009",
+    "company_name": "Foxconn Enterprise",
+    "industry": "Manufacturing",
+    "country": "Taiwan",
+    "region": "Asia",
+    "tier": "Enterprise",
+    "raw_payload": "{\"customer_id\": \"CUST-009\", \"company\": \"Foxconn Enterprise\"}"
+  },
+  {
+    "customer_id": "CUST-010",
+    "company_name": "BHP Group",
+    "industry": "Resources",
+    "country": "Australia",
+    "region": "Oceania",
+    "tier": "Mid-Market",
+    "raw_payload": "{\"customer_id\": \"CUST-010\", \"company\": \"BHP Group\"}"
+  }
+]

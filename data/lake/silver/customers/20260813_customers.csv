@@ -1,0 +1,11 @@
+customer_id,company_name,industry,country,region,tier
+CUST-001,Apple Inc.,Technology,USA,North America,Enterprise
+CUST-002,Tesla Motors,Automotive,USA,North America,Enterprise
+CUST-003,Siemens Healthineers,Healthcare,Germany,Europe,Enterprise
+CUST-004,Toyota Motor Corp,Automotive,Japan,Asia,Enterprise
+CUST-005,Novartis Pharma,Pharmaceuticals,Switzerland,Europe,Enterprise
+CUST-006,General Electric,Industrial,USA,North America,Mid-Market
+CUST-007,Sony Electronics,Technology,Japan,Asia,Enterprise
+CUST-008,AstraZeneca,Healthcare,UK,Europe,Enterprise
+CUST-009,Foxconn Enterprise,Manufacturing,Taiwan,Asia,Enterprise
+CUST-010,BHP Group,Resources,Australia,Oceania,Mid-Market

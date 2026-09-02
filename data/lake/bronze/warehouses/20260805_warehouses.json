@@ -1,0 +1,122 @@
+[
+  {
+    "warehouse_id": "WH-US-001",
+    "code": "LAX-HUB",
+    "name": "Los Angeles Logistics Hub",
+    "city": "Los Angeles",
+    "country": "USA",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "capacity_sqft": 550000,
+    "temp_zone_type": "Cold Storage",
+    "raw_payload": "{\"id\": \"WH-US-001\", \"code\": \"LAX-HUB\", \"name\": \"Los Angeles Logistics Hub\", \"city\": \"Los Angeles\", \"country\": \"USA\", \"lat\": 34.0522, \"lon\": -118.2437, \"capacity\": 550000, \"temp_zone\": \"Cold Storage\"}"
+  },
+  {
+    "warehouse_id": "WH-US-002",
+    "code": "ORD-HUB",
+    "name": "Chicago Central Distribution",
+    "city": "Chicago",
+    "country": "USA",
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "capacity_sqft": 450000,
+    "temp_zone_type": "Ambient",
+    "raw_payload": "{\"id\": \"WH-US-002\", \"code\": \"ORD-HUB\", \"name\": \"Chicago Central Distribution\", \"city\": \"Chicago\", \"country\": \"USA\", \"lat\": 41.8781, \"lon\": -87.6298, \"capacity\": 450000, \"temp_zone\": \"Ambient\"}"
+  },
+  {
+    "warehouse_id": "WH-EU-001",
+    "code": "HAM-HUB",
+    "name": "Hamburg Port Terminal",
+    "city": "Hamburg",
+    "country": "Germany",
+    "latitude": 53.5511,
+    "longitude": 9.9937,
+    "capacity_sqft": 600000,
+    "temp_zone_type": "Cold Storage",
+    "raw_payload": "{\"id\": \"WH-EU-001\", \"code\": \"HAM-HUB\", \"name\": \"Hamburg Port Terminal\", \"city\": \"Hamburg\", \"country\": \"Germany\", \"lat\": 53.5511, \"lon\": 9.9937, \"capacity\": 600000, \"temp_zone\": \"Cold Storage\"}"
+  },
+  {
+    "warehouse_id": "WH-EU-002",
+    "code": "ROT-HUB",
+    "name": "Rotterdam Gateway Terminal",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "latitude": 51.9244,
+    "longitude": 4.4777,
+    "capacity_sqft": 700000,
+    "temp_zone_type": "Frozen",
+    "raw_payload": "{\"id\": \"WH-EU-002\", \"code\": \"ROT-HUB\", \"name\": \"Rotterdam Gateway Terminal\", \"city\": \"Rotterdam\", \"country\": \"Netherlands\", \"lat\": 51.9244, \"lon\": 4.4777, \"capacity\": 700000, \"temp_zone\": \"Frozen\"}"
+  },
+  {
+    "warehouse_id": "WH-AP-001",
+    "code": "TYO-HUB",
+    "name": "Tokyo Kanto Logistics Center",
+    "city": "Tokyo",
+    "country": "Japan",
+    "latitude": 35.6762,
+    "longitude": 139.6503,
+    "capacity_sqft": 500000,
+    "temp_zone_type": "Ambient",
+    "raw_payload": "{\"id\": \"WH-AP-001\", \"code\": \"TYO-HUB\", \"name\": \"Tokyo Kanto Logistics Center\", \"city\": \"Tokyo\", \"country\": \"Japan\", \"lat\": 35.6762, \"lon\": 139.6503, \"capacity\": 500000, \"temp_zone\": \"Ambient\"}"
+  },
+  {
+    "warehouse_id": "WH-AP-002",
+    "code": "SHA-HUB",
+    "name": "Shanghai Pudong Fulfillment Center",
+    "city": "Shanghai",
+    "country": "China",
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "capacity_sqft": 850000,
+    "temp_zone_type": "Cold Storage",
+    "raw_payload": "{\"id\": \"WH-AP-002\", \"code\": \"SHA-HUB\", \"name\": \"Shanghai Pudong Fulfillment Center\", \"city\": \"Shanghai\", \"country\": \"China\", \"lat\": 31.2304, \"lon\": 121.4737, \"capacity\": 850000, \"temp_zone\": \"Cold Storage\"}"
+  },
+  {
+    "warehouse_id": "WH-AP-003",
+    "code": "SIN-HUB",
+    "name": "Singapore Tuas Mega Hub",
+    "city": "Singapore",
+    "country": "Singapore",
+    "latitude": 1.3521,
+    "longitude": 103.8198,
+    "capacity_sqft": 650000,
+    "temp_zone_type": "Ambient",
+    "raw_payload": "{\"id\": \"WH-AP-003\", \"code\": \"SIN-HUB\", \"name\": \"Singapore Tuas Mega Hub\", \"city\": \"Singapore\", \"country\": \"Singapore\", \"lat\": 1.3521, \"lon\": 103.8198, \"capacity\": 650000, \"temp_zone\": \"Ambient\"}"
+  },
+  {
+    "warehouse_id": "WH-ME-001",
+    "code": "DXB-HUB",
+    "name": "Dubai Logistics City Hub",
+    "city": "Dubai",
+    "country": "UAE",
+    "latitude": 25.2048,
+    "longitude": 55.2708,
+    "capacity_sqft": 400000,
+    "temp_zone_type": "Cold Storage",
+    "raw_payload": "{\"id\": \"WH-ME-001\", \"code\": \"DXB-HUB\", \"name\": \"Dubai Logistics City Hub\", \"city\": \"Dubai\", \"country\": \"UAE\", \"lat\": 25.2048, \"lon\": 55.2708, \"capacity\": 400000, \"temp_zone\": \"Cold Storage\"}"
+  },
+  {
+    "warehouse_id": "WH-SA-001",
+    "code": "SAN-HUB",
+    "name": "Santos Port Cargo Node",
+    "city": "Santos",
+    "country": "Brazil",
+    "latitude": -23.9608,
+    "longitude": -46.3336,
+    "capacity_sqft": 380000,
+    "temp_zone_type": "Ambient",
+    "raw_payload": "{\"id\": \"WH-SA-001\", \"code\": \"SAN-HUB\", \"name\": \"Santos Port Cargo Node\", \"city\": \"Santos\", \"country\": \"Brazil\", \"lat\": -23.9608, \"lon\": -46.3336, \"capacity\": 380000, \"temp_zone\": \"Ambient\"}"
+  },
+  {
+    "warehouse_id": "WH-AU-001",
+    "code": "SYD-HUB",
+    "name": "Sydney Western Fulfillment",
+    "city": "Sydney",
+    "country": "Australia",
+    "latitude": -33.8688,
+    "longitude": 151.2093,
+    "capacity_sqft": 300000,
+    "temp_zone_type": "Ambient",
+    "raw_payload": "{\"id\": \"WH-AU-001\", \"code\": \"SYD-HUB\", \"name\": \"Sydney Western Fulfillment\", \"city\": \"Sydney\", \"country\": \"Australia\", \"lat\": -33.8688, \"lon\": 151.2093, \"capacity\": 300000, \"temp_zone\": \"Ambient\"}"
+  }
+]

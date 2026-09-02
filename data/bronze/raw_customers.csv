@@ -1,0 +1,11 @@
+customer_id,company_name,industry,country,region,tier,raw_payload
+CUST-001,Apple Inc.,Technology,USA,North America,Enterprise,"{""customer_id"": ""CUST-001"", ""company"": ""Apple Inc.""}"
+CUST-002,Tesla Motors,Automotive,USA,North America,Enterprise,"{""customer_id"": ""CUST-002"", ""company"": ""Tesla Motors""}"
+CUST-003,Siemens Healthineers,Healthcare,Germany,Europe,Enterprise,"{""customer_id"": ""CUST-003"", ""company"": ""Siemens Healthineers""}"
+CUST-004,Toyota Motor Corp,Automotive,Japan,Asia,Enterprise,"{""customer_id"": ""CUST-004"", ""company"": ""Toyota Motor Corp""}"
+CUST-005,Novartis Pharma,Pharmaceuticals,Switzerland,Europe,Enterprise,"{""customer_id"": ""CUST-005"", ""company"": ""Novartis Pharma""}"
+CUST-006,General Electric,Industrial,USA,North America,Mid-Market,"{""customer_id"": ""CUST-006"", ""company"": ""General Electric""}"
+CUST-007,Sony Electronics,Technology,Japan,Asia,Enterprise,"{""customer_id"": ""CUST-007"", ""company"": ""Sony Electronics""}"
+CUST-008,AstraZeneca,Healthcare,UK,Europe,Enterprise,"{""customer_id"": ""CUST-008"", ""company"": ""AstraZeneca""}"
+CUST-009,Foxconn Enterprise,Manufacturing,Taiwan,Asia,Enterprise,"{""customer_id"": ""CUST-009"", ""company"": ""Foxconn Enterprise""}"
+CUST-010,BHP Group,Resources,Australia,Oceania,Mid-Market,"{""customer_id"": ""CUST-010"", ""company"": ""BHP Group""}"

@@ -1,0 +1,11 @@
+warehouse_id,code,name,city,country,latitude,longitude,capacity_sqft,temp_zone_type
+WH-US-001,LAX-HUB,Los Angeles Logistics Hub,Los Angeles,USA,34.0522,-118.2437,550000,Cold Storage
+WH-US-002,ORD-HUB,Chicago Central Distribution,Chicago,USA,41.8781,-87.6298,450000,Ambient
+WH-EU-001,HAM-HUB,Hamburg Port Terminal,Hamburg,Germany,53.5511,9.9937,600000,Cold Storage
+WH-EU-002,ROT-HUB,Rotterdam Gateway Terminal,Rotterdam,Netherlands,51.9244,4.4777,700000,Frozen
+WH-AP-001,TYO-HUB,Tokyo Kanto Logistics Center,Tokyo,Japan,35.6762,139.6503,500000,Ambient
+WH-AP-002,SHA-HUB,Shanghai Pudong Fulfillment Center,Shanghai,China,31.2304,121.4737,850000,Cold Storage
+WH-AP-003,SIN-HUB,Singapore Tuas Mega Hub,Singapore,Singapore,1.3521,103.8198,650000,Ambient
+WH-ME-001,DXB-HUB,Dubai Logistics City Hub,Dubai,UAE,25.2048,55.2708,400000,Cold Storage
+WH-SA-001,SAN-HUB,Santos Port Cargo Node,Santos,Brazil,-23.9608,-46.3336,380000,Ambient
+WH-AU-001,SYD-HUB,Sydney Western Fulfillment,Sydney,Australia,-33.8688,151.2093,300000,Ambient
